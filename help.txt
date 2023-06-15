@@ -1,3 +1,1 @@
-1. bootstrap and icons not working
-2. github
-3. cloud service
+1. cloud service

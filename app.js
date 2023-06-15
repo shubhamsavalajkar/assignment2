@@ -23,6 +23,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
+//this is the line that made the bootstrap and icons work
+app.use(express.static(path.join(__dirname, "node_modules")));
+
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/about_me", aboutMeRouter);
