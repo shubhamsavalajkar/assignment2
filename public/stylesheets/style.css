@@ -1,7 +1,8 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: rgb(230, 228, 221);
+  background-color: rgb(247, 244, 232);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -16,3 +17,16 @@ a {
 .btn {
   transition: all .7s;
 }
+
+.navbar {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 17px;
+  background-color: rgb(247, 244, 232);
+}
+
+h1, h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+
