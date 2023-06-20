@@ -3,9 +3,39 @@
 <main class="container">
   <h1><%= "contact me" %></h1>
   <br />
-  <p>Here is my contact information</p>
-  <p>email</p>
-  <p>number</p>
+  <p>If you have any questions or inquiries, please feel free to reach out to me using the contact information below:</p>
+
+  <div class="contact-info">
+    <h2>Email</h2>
+    <p>Email: example@example.com</p>
+  </div>
+
+  <div class="contact-info">
+    <h2>Phone</h2>
+    <p>Phone: +1234567890</p>
+  </div>
+
+  <div class="contact-info">
+    <h2>Social Media</h2>
+    <p>Twitter: <a href="https://twitter.com/example">example</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/example">example</a></p>
+  </div>
+
+  <div class="contact-form">
+    <h2>Send me a Message</h2>
+    <form action="/contact" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
 </main>
 
 <%- include partials/bottom-nav.ejs %> <%- include partials/footer.ejs %>
